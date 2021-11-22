@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const productsRouter = require('./controller/products/router');
+const salesRouter = require('./controller/sales/router');
 
 const PORT = 3000;
 
@@ -15,6 +16,7 @@ app.get('/', (_request, response) => {
 });
 
 app.use('/products', productsRouter);
+app.use('/sales', salesRouter);
 
 app.listen(PORT, () => {
   console.log(`API is online on PORT ${PORT}`);
