@@ -15,5 +15,5 @@ module.exports = (err, req, res, _next) => {
 
   const status = statusByErrorCode[err.code] || 500;
 
-  return res.status(status).json(err);
+  return res.status(status).json({ err });
 };
