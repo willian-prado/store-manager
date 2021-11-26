@@ -1,7 +1,7 @@
 const salesModel = require('../../model/sales');
 
 module.exports = async (saleObject) => {
-  const newSale = await salesModel.update(saleObject);
+  const newSale = await salesModel.updateArray(saleObject);
 
   if (!newSale) {
     return {
