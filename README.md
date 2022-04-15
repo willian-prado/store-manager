@@ -4,7 +4,7 @@
 
 **Contexto**
 
-Neste novo projeto, após sermos apresentados aos conceitos de arquitetura de software em camadas - arquitetura MSC (Model-Service-Controller), mais especificamente - e de APIs RESTful, somos desafiados a construir uma API que respeite esses padrões.
+Neste novo projeto, após sermos apresentados aos conceitos de arquitetura de software em camadas - arquitetura MSC (Model-Service-Controller), mais especificamente - e APIs RESTful, somos desafiados a construir uma API que respeite esses padrões.
 
 **Objetivo do projeto**
 
