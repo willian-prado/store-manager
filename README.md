@@ -131,7 +131,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Criar produtos](./public/criarProdutos.png)
 
-### 2 - Crie um endpoint para listar os produtos
+#### 2 - Crie um endpoint para listar os produtos
 
 - O endpoint deve ser acessível através do caminho (`/products`) ou (`/products/:id`);
 
@@ -159,7 +159,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Produto não existe](./public/produtonaoexiste.png)
 
-### 3 - Crie um endpoint para atualizar um produto
+#### 3 - Crie um endpoint para atualizar um produto
 
 - O endpoint deve ser acessível através do caminho (`/products/:id`);
 
@@ -203,7 +203,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Atualizado com sucesso](./public/atualizarcomsucesso.png)
 
-### 4 - Crie um endpoint para deletar um produto
+#### 4 - Crie um endpoint para deletar um produto
 
 - O endpoint deve ser acessível através do caminho (`/products/:id`);
 
@@ -223,7 +223,7 @@ O projeto deve rodar na porta `http://localhost:3000`
 
 ![Deletar um produto que não existe](./public/deletarumprodutoquenaoexiste.png)
 
-### 5 - Crie um endpoint para cadastrar vendas
+#### 5 - Crie um endpoint para cadastrar vendas
 
 - O endpoint deve ser acessível através do caminho (`/sales`);
 
@@ -299,7 +299,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Cadastrar varias compras](./public/variascompras.png)
 
-### 6 - Crie um endpoint para listar as vendas
+#### 6 - Crie um endpoint para listar as vendas
 
 - O endpoint deve ser acessível através do caminho (`/sales`) ou (`/sales/:id`);
 
@@ -327,7 +327,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Listar uma venda que não existe](./public/vendanaoexiste.png)
 
-### 7 - Crie um endpoint para atualizar uma venda
+#### 7 - Crie um endpoint para atualizar uma venda
 
 - O endpoint deve ser acessível através do caminho (`/sales/:id`);
 
@@ -372,7 +372,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Atualizar uma venda com sucesso](./public/atualizarvendacomsucesso.png)
 
-### 8 - Crie um endpoint para deletar uma venda
+#### 8 - Crie um endpoint para deletar uma venda
 
 - O endpoint deve ser acessível através do caminho (`/sales/:id`);
 
@@ -392,7 +392,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Deletar uma venda que não existe](./public/deletarumavendaquenaoexiste.png)
 
-### 9 - Atualize a quantidade de produtos
+#### 9 - Atualize a quantidade de produtos
 
 - Ao realizar uma venda, atualizá-la ou deletá-la, você deve também atualizar a quantidade do produto em questão presente na `collection` responsável pelos produtos;
 
@@ -408,7 +408,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
   - Ao fazer deletar uma determinada venda, a quantidade do produto deverá ser atualizada para a quantidade que tinha antes de ter feito essa venda.
 
-### 10 - Valide a quantidade de produtos
+#### 10 - Valide a quantidade de produtos
 
 - Um produto nunca deve ter a quantidade em estoque menor que 0;
 
@@ -422,9 +422,9 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 ![Compra maior que a quantidade](./public/compramaiorqueaquantidade.png)
 
-## Bônus
+#### Bônus
 
-## 11 - Escreva testes para seus models
+#### 11 - Escreva testes para seus models
 
 - Utilize o mocha, chai e sinon para escrever seus testes
 
@@ -432,7 +432,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 - Será validado que cobertura total das linhas dos arquivos na pasta `models` é maior ou igual a 60% e ao menos 45 linhas são cobertas pelos testes.
 
-## 12 - Escreva testes para seus services
+#### 12 - Escreva testes para seus services
 
 - Utilize o mocha, chai e sinon para escrever seus testes
 
@@ -440,7 +440,7 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 - Será validado que cobertura total das linhas dos arquivos na pasta `services` é maior ou igual a 60% e ao menos 24 linhas são cobertas pelos testes
 
-## 13 - Escreva testes para seus controllers
+#### 13 - Escreva testes para seus controllers
 
 - Utilize o mocha, chai e sinon para escrever seus testes
 
