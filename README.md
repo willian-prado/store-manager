@@ -46,6 +46,8 @@ visualizar, deletar e atualizar produtos e vendas.
 
 ### Lista de requisitos propostos pela Trybe:
 
+#### Obrigatórios
+
 #### 1 - Crie um endpoint para o cadastro de produtos
 
 - O endpoint deve ser acessível através do caminho (`/products`);
