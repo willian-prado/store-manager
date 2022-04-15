@@ -1,4 +1,4 @@
-### Projeto Store Manager
+## Projeto Store Manager
 
 > Oitavo projeto do módulo de Back-end do curso de desenvolvimento web da Trybe.
 
