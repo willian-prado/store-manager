@@ -9,7 +9,7 @@ Neste novo projeto, após sermos apresentados aos conceitos de arquitetura de so
 **Objetivo do projeto**
 
 Desenvolver uma API RESTful utilizando a arquitetura MSC e o banco MongoDB para a gestão de dados.
-A API a ser construída trata-se de um sistema de gerenciamento de vendas, onde será possível criar,
+A API a ser construída corresponde a um sistema de gerenciamento de vendas, onde será possível criar,
 visualizar, deletar e atualizar produtos e vendas.
 
 **Principais habilidades desenvolvidas nesse trabalho**
