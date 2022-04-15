@@ -33,7 +33,7 @@ visualizar, deletar e atualizar produtos e vendas.
 ### Endpoints disponíveis na aplicação:
 
 * [`POST`] Cadastrar produtos: `/products`;
-* [`GET`] Listar produtos: `/produtos`;
+* [`GET`] Listar produtos: `/products`;
 * [`GET`] Listar um produto pelo seu id:`/products/:id`;
 * [`PUT`] Atualizar um produto pelo seu id: `/products/:id`;
 * [`DELETE`] Remover um produto pelo seu id: `/products/:id`;
