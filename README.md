@@ -4,7 +4,7 @@
 
 **Contexto**
 
-No bloco deste projeto somos apresentados aos conceitos de arquitetura de software em camadas - arquitetura MSC (Model-Service-Controller), mais especificamente - e APIs RESTful.
+No bloco deste projeto somos apresentados aos conceitos de arquitetura de software em camadas - mais especificamente, a arquitetura MSC (Model-Service-Controller) - e aos padrões de uma API RESTful.
 
 **Objetivo do projeto**
 
