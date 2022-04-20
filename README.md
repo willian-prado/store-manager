@@ -1,10 +1,10 @@
 ## Projeto Store Manager
 
-> Oitavo projeto do módulo de Back-end do curso de desenvolvimento web da Trybe.
+> Oitavo projeto do módulo de Back-end do curso de desenvolvimento web da [Trybe](https://www.betrybe.com/)
 
 **Contexto**
 
-No bloco deste projeto somos apresentados aos conceitos de arquitetura de software em camadas - mais especificamente, a arquitetura MSC (Model-Service-Controller) - e aos padrões de uma API RESTful.
+No bloco deste projeto somos apresentados aos conceitos de arquitetura de software em camadas - mais especificamente, a arquitetura MSC (Model, Service e Controller) - e aos padrões de uma API RESTful.
 
 **Objetivo do projeto**
 
@@ -448,3 +448,6 @@ O retorno de uma venda cadastrada com sucesso deverá ser:
 
 - Será validado que cobertura total das linhas dos arquivos na pasta `controllers` é maior ou igual a 60% e ao menos 24 linhas são cobertas pelos testes
 
+---
+
+[Ir para a lista de projetos](https://github.com/willian-prado/trybe-records)
